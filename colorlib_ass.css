@@ -1,0 +1,508 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-image: url(https://img.freepik.com/premium-photo/hotel-room_935506-1294.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+.navbar {
+
+  
+ 
+position: fixed;
+width: 100%;
+    color: white;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+
+
+}
+
+.navbar:hover {
+
+  background: rgba(0, 0, 0, 0.6); 
+  backdrop-filter: blur(4px);      
+  
+
+}
+
+
+
+
+.left1 {
+    padding-bottom: 35px;
+    /* padding-top: 40px; */
+    font-weight: bold;
+    color: white;
+    padding-left: 15px;
+    gap: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.center1 {
+    /* padding-top: 45px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+.Icon {
+    /* margin-top: -39px; */
+    
+
+}
+
+.Heading1 {
+    /* margin-top: -32px; */
+  
+}
+
+.Para1 {
+    /* margin-top: -20px; */
+}
+
+.right1 {
+ /* padding-top: 40px; */
+ padding-bottom: 35px;
+    padding-right: 15px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Booking button {
+    background-color: rgb(0, 140, 240);
+    color: white;
+    height: 40px;
+    width: 120px;
+    border: none;
+}
+
+.Booking button:hover {
+    background: white;
+    color: rgb(0, 140, 240);
+    transition: 0.3s;
+}
+
+.Para {
+    font-family: cursive;
+    font-size: 12px;
+}
+
+.Hero {
+    padding-top: 250px;
+    color: white;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.up {
+    height: 100px;
+    padding-top: 50px;
+    padding-bottom: 120px;
+    align-items: center;
+    font-size: 50px;
+}
+
+.down {
+    align-items: center;
+    font-size: 25px;
+    padding-left: 170px;
+    padding-bottom: 50px;
+
+}
+
+.le {
+    align-items: center;
+    padding-top: 50px;
+}
+
+.ri {
+    align-items: center;
+    padding-top: 50px;
+}
+
+.big_sec {
+    background-color: rgb(227, 249, 249);
+    height: 3800px;
+
+}
+
+.about_us {
+    height: 600px;
+    background-color: rgb(227, 249, 249);
+    padding-right: 60px;
+    padding-left: 100px;
+    padding-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+    width: 500px;
+}
+
+.right2 {
+
+
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 300px 300px;
+    height: 400px;
+    grid-template-rows: 1fr;
+    grid-template-areas: "photo1 photo2";
+}
+
+.photo1 {
+
+    border: 2px solid;
+    grid-area: photo1;
+    border-radius: 20px 20px 20px 20px;
+    background-image: url(https://wallpaperaccess.com/full/6688068.jpg);
+    background-size: 100% 100%;
+    width: 320px;
+}
+
+.photo2 {
+
+    border: 2px solid;
+    border-radius: 20px 20px 20px 20px;
+    grid-area: photo2;
+    width: 320px;
+    background-image: url(https://i5.walmartimages.com/asr/8727df34-10f7-41a0-85a8-98d352d42451.c4513eb048f9d374b402c9ecc319257e.jpeg);
+    background-size: 100% 100%;
+}
+
+.para2 {
+    width: 400px;
+    font-size: 18px;
+
+}
+
+.heading2 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 20px;
+}
+
+.offers {
+    text-align: center;
+    height: 800px;
+    padding-top: 60px;
+}
+
+.offers-title a {
+    text-decoration: none;
+    color: rgb(0, 140, 240);
+    font-size: 15px;
+    margin-bottom: -5px;
+}
+
+.offers-heading {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.offers-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.offer-card {
+    width: 300px;
+    text-align: left;
+}
+
+.offer-card img {
+    width: 300px;
+    height: 220px;
+    border-radius: 5px;
+}
+
+.offer-card h3 {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.offer-card ul {
+    margin-top: 10px;
+    line-height: 25px;
+    color: rgb(100, 100, 100);
+}
+
+li {
+    list-style-type: disc;
+}
+
+.offer-btn {
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    background: white;
+    border: 2px solid rgb(0, 140, 240);
+    color: rgb(0, 140, 240);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.offer-btn:hover {
+    background: rgb(0, 140, 240);
+    color: white;
+    transition: 0.3s;
+}
+
+.video_play {
+    width: 1fr;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.food_section {
+
+
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding-top: 100px;
+}
+
+.food_images {
+
+    display: grid;
+    grid-template-columns: 300px 300px;
+    height: 400px;
+    grid-template-rows: 1fr;
+    grid-template-areas: "food_img1 food_img2";
+    gap: 10px;
+}
+
+
+.food_img1 {
+    grid-area: food_img1;
+    border: 2px solid;
+    border-radius: 10px;
+    background-size: 100% 100%;
+    background-image: url(https://tse1.mm.bing.net/th/id/OIP.qMNa7DRP6WQkuIEB_eK6TwHaHa?rs=1&pid=ImgDetMain&o=7&rm=3);
+}
+
+.food_img2 {
+    grid-area: food_img2;
+    border: 2px solid;
+    border-radius: 10px;
+    background-image: url(https://thumbs.dreamstime.com/b/hotel-breakfast-table-full-various-tasty-fresh-food-banquet-32286139.jpg);
+    background-size: 100% 100%;
+
+}
+
+.food_content {
+    width: 500px;
+}
+
+.small_title {
+    text-decoration: none;
+    color: rgb(0, 140, 240);
+    font-size: 14px;
+}
+
+.food_section h1 {
+    font-size: 40px;
+    margin: 10px 0 20px 0;
+}
+
+.food_section p {
+    line-height: 28px;
+    color: rgb(100, 100, 100);
+    font-size: 16px;
+}
+
+.learn_more {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+    padding-bottom: 3px;
+    transition: 0.3s;
+}
+
+.learn_more:hover {
+    color: rgb(0, 140, 240);
+    border-bottom: 1px solid rgb(0, 140, 240);
+}
+
+.para3 {
+    width: 400px;
+    font-size: 18px;
+
+}
+
+.tiles {
+    
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    grid-template-areas: "pic1 pic2" "pic3 pic4";
+
+}
+
+.pic1, .pic2, .pic3, .pic4 {
+    background-size: 100% 100%;
+    background-position: center;
+    transition: transform 2s ease;   
+    transform-origin: center;        
+}
+
+.pic1:hover,
+.pic2:hover,
+.pic3:hover,
+.pic4:hover {
+    
+    transform: scale(0.9);
+}
+
+
+.pic1 {
+    border-top-left-radius: 10px;
+    font-size: 25px;
+    display: flex;
+    align-items:end;
+    justify-content: start;
+    grid-area: pic1;
+    background-image: url(https://cache.marriott.com/marriottassets/marriott/KULDT/kuldt-guestroom-0065-hor-clsc.jpg?interpolation=progressive-bilinear&);
+}
+
+.pic2 {
+    border-top-right-radius: 10px;
+      font-size: 25px;
+     display: flex;
+    align-items:end;
+    justify-content: start;
+    grid-area: pic2;
+    background-image: url(https://cache.marriott.com/marriottassets/marriott/BUHRO/buhro-room-0148-hor-clsc.jpg?interpolation=progressive-bilinear&);
+}
+
+.pic3 {
+    border-bottom-left-radius: 10px;
+      font-size: 25px;
+     display: flex;
+    align-items: end;
+    justify-content: start;
+    grid-area: pic3;
+    
+    background-image: url(https://images.rosewoodhotels.com/is/image/rwhg/hi-hgv-26330925-rhgmodelbedroom-1);
+}
+
+.pic4 {
+    border-bottom-right-radius: 10px;
+      font-size: 25px;
+     display: flex;
+    align-items:end;
+    justify-content: start;
+    grid-area: pic4;
+    background-image: url(https://img1.10bestmedia.com/Images/Photos/378649/Park-Hyatt-New-York-Manhattan-Sky-Suite-Master-Bedroom-low-res_54_990x660.jpg);
+}
+
+.footer {
+      width: 100%;
+      padding: 50px 0;
+      display: flex;
+      justify-content: center;
+      gap: 80px;
+    }
+
+    .footer-column {
+      color: #c7c7c7;
+      width: 220px;
+    }
+
+    .footer-column h3 {
+      color: #fff;
+      margin-bottom: 20px;
+      font-size: 19px;
+    }
+
+    .footer-column p,
+    .footer-column a,
+    .footer-column li {
+      font-size: 15px;
+      line-height: 26px;
+      color: #c7c7c7;
+      text-decoration: none;
+      list-style: none;
+    }
+
+    .footer-column a:hover {
+      color: #fff;
+    }
+
+    .footer-column ul {
+      padding: 0;
+      margin: 0;
+    }
+
+    .newsletter-box {
+      display: flex;
+    }
+
+    .newsletter-box input {
+      padding: 9px 12px;
+      border: none;
+      outline: none;
+      width: 200px;
+    }
+
+    .newsletter-box button {
+      background: #008cff;
+      border: none;
+      color: #fff;
+      padding: 9px 14px;
+      cursor: pointer;
+    }
+
+    .newsletter-box button:hover {
+      opacity: 0.85;
+    }
+    footer{
+        background-color: black;
+    }
+    .Navigation{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
